@@ -1,0 +1,6 @@
+.page {
+  background-color: #2A2C2F;
+  background-size: 100%;
+  text-rendering: optimizeLegibility; 
+  min-width: 320px;
+}

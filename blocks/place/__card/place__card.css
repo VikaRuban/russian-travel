@@ -1,0 +1,4 @@
+.place__card {
+  display: flex;
+  flex-wrap: wrap;
+}

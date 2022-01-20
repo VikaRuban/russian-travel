@@ -1,0 +1,26 @@
+.photo__item {
+  min-width: 288px;
+  width: 100%;
+  min-height: 216px;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .photo__item {
+    width: calc(352px-48px);
+    min-height: 264px;
+    margin: 0 auto;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .photo__item {
+    min-width: 300px;
+    width: 100%;
+    min-height: 225px;
+  }
+}
+@media (min-width: 1280px) {
+  .photo__item {
+    min-width: 284px;
+    width: 100%;
+    min-height: 213px;
+  }
+}

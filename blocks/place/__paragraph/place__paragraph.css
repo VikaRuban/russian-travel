@@ -1,0 +1,21 @@
+.place__paragraph {
+  font-family: 'Inter', 'Arial', 'Helvetica', sans-serif; 
+  color: #FFFFFF;
+  font-size: 16px;
+  line-height: 1.6;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0 16px 25px;
+}
+.place__paragraph:nth-child(2) {
+  margin-bottom: 0;
+}
+@media (min-width: 768px) {
+  .place__paragraph {
+   margin: 0 0 26px 0;
+  }
+  .place__paragraph:nth-child(2) {
+    margin-bottom: 0;
+  }
+}
+

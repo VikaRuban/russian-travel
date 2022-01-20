@@ -1,0 +1,27 @@
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .place__head {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 72px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .place__head {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 80px;
+    align-items: center;
+  }
+}
+@media (min-width: 1280px) {
+  .place__head {
+    width: 100%;
+    display: flex;
+    flex-wrap: nowrap;
+    min-height: 80px;
+    align-items: center;
+  }
+}

@@ -1,0 +1,22 @@
+/*320px*/
+.header {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px 16px 0;
+  align-items: flex-end;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .header{
+   padding: 28px 24px 0;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .header {
+    padding: 28px 48px 0;
+  }
+}
+@media (min-width: 1280px) {
+  .header {
+    padding: 28px 48px 0;
+  }
+}

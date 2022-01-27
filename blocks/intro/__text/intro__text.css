@@ -10,16 +10,27 @@
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .intro__text{
-    margin: 0 24px;
+    margin-left: 24px;
+    margin-right: 24px;
+    width: 720px;
+    height: 208px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
   .intro__text {
-    margin: 0 48px;
+    margin-left: 48px;
+    margin-right: 48px;
   }
 }
+@media (min-width: 1024px) {
+  .intro__text {
+    width: 690px;
+    height: 208px;
+    }
+  }
 @media (min-width: 1280px) {
   .intro__text {
-    margin: 0 148px;
+    margin-left: 148px;
+    margin-right: 148px;
   }
 }

@@ -14,25 +14,30 @@
 .cover__title:nth-child(2) {
   padding: 0;
 }
-@media (min-width: 768px) and (max-width: 1024px) {
-  .cover__title  {
+@media (min-width: 768px) {
+  .cover__title {
     font-size: 72px;
-    line-height: 1.1;
-    padding: 115px 104px 0;
+  }
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .cover__title {
+    padding-top: 115px;
+    padding-left: 104px;
+    padding-right: 104px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
-  .cover__title  {
-    font-size: 72px;
-    line-height: 1.1;
+  .cover__title {
     padding: 195px 232px 0;
+    padding-top: 195px;
+    padding-left: 232px;
+    padding-right: 232px;
   }
 }
 @media (min-width: 1280px) {
-  .cover__title  {
-    font-size: 72px;
-    line-height: 1.1;
-    padding: 245px 312px 0;
+  .cover__title {
+    padding-top: 245px;
+    padding-left: 312px;
+    padding-right: 312px;
   }
 }
-

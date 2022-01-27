@@ -19,3 +19,8 @@
   }
 }
 
+@media (min-width: 1280px) {
+  .place__paragraph {
+  font-size: 18px;
+  }
+}

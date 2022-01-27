@@ -4,34 +4,35 @@
   height: auto;
   margin: 0 0 32px 0;
 }
-
+@media (min-width: 768px) {
+  .place__image {
+    object-fit: cover;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .place__image {
     min-width: 340px;
     width: calc(50% - 52px);
-    height: auto;
     max-height: 340px;
-    margin: 0 28px 0 24px;
-    object-fit: cover;
+    margin-right: 28px;
+    margin-left: 24px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
   .place__image {
     min-width: 440px;
     width: calc(50% - 80px);
-    height: auto;
     max-height: 440px;
-    margin: 0 32px 0 48px;
-    object-fit: cover;
+    margin-right: 32px;
+    margin-left: 48px;
   }
 }
 @media (min-width: 1280px) {
   .place__image {
     min-width: 460px;
     width: calc(50% - 188px);
-    height: auto;
     max-height: 460px;
-    margin: 0 40px 0 148px;
-    object-fit: cover;
+    margin-right: 40px;
+    margin-left: 148px;
   }
 }

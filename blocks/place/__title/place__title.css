@@ -28,9 +28,13 @@
     margin-top: 80px;
   }
 }
-@media (min-width: 1024px) and (max-width: 1280px) {
+@media (min-width: 1024px) {
   .place__title {
     font-size: 72px;
+  }
+}
+@media (min-width: 1024px) and (max-width: 1280px) {
+  .place__title {
     min-width: 440px;
     width: calc(50% - 80px);
     margin-right: 32px;
@@ -39,7 +43,6 @@
 }
 @media (min-width: 1280px) {
   .place__title {
-    font-size: 72px;
     min-width: 460px;
     width: calc(50% - 188px);
     margin-right: 40px;

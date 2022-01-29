@@ -11,9 +11,6 @@
   z-index: 3;
   position: relative;
 }
-.cover__title:nth-child(2) {
-  padding: 0;
-}
 @media (min-width: 768px) {
   .cover__title {
     font-size: 72px;
@@ -28,7 +25,6 @@
 }
 @media (min-width: 1024px) and (max-width: 1280px) {
   .cover__title {
-    padding: 195px 232px 0;
     padding-top: 195px;
     padding-left: 232px;
     padding-right: 232px;

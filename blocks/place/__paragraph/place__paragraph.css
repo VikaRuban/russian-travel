@@ -7,20 +7,21 @@
   font-style: normal;
   margin: 0 16px 25px;
 }
-.place__paragraph:nth-child(2) {
+.place__paragraph:last-child {
   margin-bottom: 0;
 }
 @media (min-width: 768px) {
   .place__paragraph {
-   margin: 0 0 26px 0;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: 26px;
   }
-  .place__paragraph:nth-child(2) {
+  .place__paragraph:last-child {
     margin-bottom: 0;
   }
 }
-
-@media (min-width: 1280px) {
+@media (min-width: 1024px) {
   .place__paragraph {
-  font-size: 18px;
+    font-size: 18px;
   }
 }

@@ -10,13 +10,11 @@
 @media (min-width: 768px) {
   .intro__title {
     font-size: 54px;
-    margin-bottom: 40px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .intro__title {
     margin-top: 88px;
-    margin-bottom: 24px;
   }
 }
 @media (min-width: 1024px) {

@@ -3,25 +3,14 @@
 }
 @media (min-width: 768px) {
   .place__website {
-    margin-bottom: 48px;
-  }
-}
-@media (min-width: 768px) {
-  .place__website {
     margin-left: 0;
     margin-right: 0;
-    margin-bottom: 0;
+    margin-bottom: 48px;
   }
 }
 @media (min-width: 768px) and (max-width: 1024px) {
   .place__website {
-    margin-top: 73px;
     width: calc(50% - 24px);
-  }
-}
-@media (min-width: 1024px) {
-  .place__website {
-    margin-top: 80px;
   }
 }
 @media (min-width: 1024px) and (max-width: 1280px) {

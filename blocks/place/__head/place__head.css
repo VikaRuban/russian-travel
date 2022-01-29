@@ -5,6 +5,11 @@
     flex-wrap: nowrap;
   }
 }
+@media (min-width: 768px) {
+  .place__head {
+    align-items: flex-end;
+  }
+}
 @media (min-width: 768px) and (max-width: 1024px) {
   .place__head {
     min-height: 72px;
@@ -13,6 +18,5 @@
 @media (min-width: 1024px) {
   .place__head {
     min-height: 80px;
-    align-items: center;
   }
 }

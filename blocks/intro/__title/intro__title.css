@@ -15,6 +15,8 @@
 @media (min-width: 768px) and (max-width: 1024px) {
   .intro__title {
     margin-top: 88px;
+    margin-left: 24px;
+    margin-right: 24px;
   }
 }
 @media (min-width: 1024px) {
@@ -25,10 +27,12 @@
 @media (min-width: 1024px) and (max-width: 1280px) {
   .intro__title  {
     margin-left: 48px;
+    margin-right: 48px;
   }
 }
 @media (min-width: 1280px) {
   .intro__title  {
     margin-left: 148px;
+    margin-right: 148px;
   }
 }

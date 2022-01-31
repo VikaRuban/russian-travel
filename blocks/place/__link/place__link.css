@@ -5,7 +5,9 @@
   line-height: 1.2;
   font-weight: 400;
   font-style: normal;
+  text-underline-offset: 2px;
 }
 .place__link:hover {
   opacity: 80%;
+  
 }

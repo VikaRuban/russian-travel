@@ -2,6 +2,6 @@
   margin-right: 18px;
   list-style-type: none;
 }
-.header__li:last-child {
+.header__list:last-child {
   margin-right: 0;
 }
